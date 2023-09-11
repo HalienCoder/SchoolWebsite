@@ -8,45 +8,106 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body>
+<body class="font-Rubik bg-second font-medium">
     <header>
-        <nav class="h-24 ">
-            <ul class="flex justify-evenly ">
+        <nav class="h-16 flex justify-evenly bg-main text-white shadow-slate-950 fixed top-0 left-0 right-0">
+            <div class="flex p-3">
+                <img src="/dist/resources/logo.png" alt="logo" class="p-0.5 object-scale-down rounded-xl">
+                <h1 class="font-black p-2">ROYAL ACADEMY</h1>
+            </div>
+
+            <ul class="flex justify-evenly gap-4 ">
                 <li> <a class="hover:font-black" href="#home">Home</a></li>
-                <li> <a class="hover:font-black" href="#about-us">About us</a></li>
+                <li> <a class="hover:font-black" href="#about-us">About</a></li>
                 <li> <a class="hover:font-black" href="#academics">Academics</a></li>
                 <li> <a class="hover:font-black" href="#gallery">Gallery</a></li>
-                <li> <a class="hover:font-black" href="#contact-us">Contact us</a></li>
+                <li> <a class="hover:font-black" href="#contact-us">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home">
-            <div class="aboutus">
-                <h1 class="font-light">About us</h1>
+        <section id="home" class="flex  ">
+            <div class="">
+                <img src="resources/banner1.png" alt="Royal Academy" class="left-0 right-0">
             </div>
         </section>
 
         <Section id="about-us">
-            <div class="announcements">
+            <div class="flex flex-col items-center">
+                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-ABOUT US-</span></h2>
+                <p class="mx-36 p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sed soluta, aut
+                    unde
+                    odio quae
+                    quasi! Sunt blanditiis id mollitia voluptates ipsum et amet accusantium! Id commodi at assumenda
+                    ratione velit impedit sunt eligendi provident nam magnam. Eaque voluptatum harum a praesentium aut
+                    placeat rem, ducimus pariatur corporis ex fugiat modi in rerum suscipit repellendus nisi inventore
+                    architecto laborum eos ratione. Accusamus debitis similique odio excepturi vero voluptas labore ex
+                    voluptatum dicta harum, exercitationem maxime laudantium illum aut ab dolore quas id eligendi
+                    ducimus vel iure beatae saepe impedit! Dolorum sit ipsam voluptatibus ea inventore adipisci
+                    provident tempora quae odio.</p>
+                <h1 class="card">joke</h1>
             </div>
         </Section>
 
         <section id="academics">
-            <div class="academics">
+            <div class="flex flex-col items-center">
+                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-ACADEMICS-</span></h2>
+                <p class="mx-36 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur temporibus
+                    deleniti, reiciendis eaque, aperiam adipisci quis, tenetur libero delectus sequi. Maxime distinctio
+                    reiciendis, reprehenderit ut a vel facilis sequi harum doloribus nulla. Et soluta provident
+                    asperiores, assumenda non, sequi a nobis repudiandae voluptate dolore iure. Consequuntur ipsam ullam
+                    eveniet modi illum? Ducimus necessitatibus, delectus debitis repellat neque dignissimos expedita
+                    mollitia id deserunt quos animi! Odit quam nobis accusamus consectetur a inventore earum harum quas
+                    laborum temporibus cumque unde laudantium vero esse necessitatibus, cum ullam officia rerum labore
+                    tempore officiis repellendus. Illum non aut ut! Optio porro atque commodi dolorem.</p>
+            </div>
+            <div>
+                Time Table
+                <Table class="border-2 solid">
+                    <tr class="border-2 solid">
+                        <th class="border-2 solid">Class</th>
+                        <th>Hour 1</th>
+                        <th>Hour 2</th>
+                        <th>Hour 3</th>
+                        <th>Hour 4</th>
+                        <th>Hour 5</th>
+                        <th>Hour 6</th>
+                        <th>Hour 7</th>
+                    </tr>
+                    <tr>
+                        <td>Mon</td>
+                        <td>math</td>
+                        <td>phy</td>
+                        <td>chem</td>
+
+                    </tr>
+                </Table>
+            </div>
+            <div class="flex flex-col gap-5 mt-6">
+
+                <button class="rounded-full bg-main w-24"> resource 1</button>
+                <button class="rounded-full bg-main w-24"> resource 2</button>
+                <button class="rounded-full bg-main w-24"> resource 3</button>
             </div>
         </section>
+
         <section id="gallery">
             </div>
-            <div class="gallery">
+            <div class="flex flex-col items-center">
+                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-GALLERY-</span></h2>
             </div>
         </section>
+
         <section id="contact-us">
-            <div class="contact">
+            <div class="flex flex-col items-center">
+                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-CONTACT US-</span></h2>
             </div>
         </section>
 
     </main>
+    <footer class="bg-main h-32">
+        <h1 class="text-white text-3xl p-4 mx-16">Royal Academy</h1>
+    </footer>
 </body>
 
 </html>
