@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
+    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+
 </head>
 
 <body class="font-Rubik bg-second font-medium">
@@ -16,8 +18,8 @@
                 <h1 class="font-black p-2">ROYAL ACADEMY</h1>
             </div>
 
-            <ul class="flex justify-evenly gap-4 ">
-                <li> <a class="hover:font-black" href="#home">Home</a></li>
+            <ul class="flex justify-evenly gap-8 mt-5 md:gap-4 sm:gap-4">
+                <li> <a class=" hover:font-black" href="#home">Home</a></li>
                 <li> <a class="hover:font-black" href="#about-us">About</a></li>
                 <li> <a class="hover:font-black" href="#academics">Academics</a></li>
                 <li> <a class="hover:font-black" href="#gallery">Gallery</a></li>
@@ -26,15 +28,17 @@
         </nav>
     </header>
     <main>
-        <section id="home" class="flex  ">
+        <section id="home" class="flex mb-32">
             <div class="">
-                <img src="resources/banner1.png" alt="Royal Academy" class="left-0 right-0">
+                <img src="resources/banner1.png" alt="Royal Academy" class="left-0 right-0 w-auto shadow-2xl">
             </div>
         </section>
 
-        <Section id="about-us">
+        <Section id="about-us" class="mb-20">
             <div class="flex flex-col items-center">
-                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-ABOUT US-</span></h2>
+                <h2 class="font-semibold p-4 mt-6 text-3xl"><span
+                        class="bg-main rounded-full p-3 shadow-xl text-white"><span class="p-5">ABOUT
+                            US</span></h2>
                 <p class="mx-36 p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sed soluta, aut
                     unde
                     odio quae
@@ -45,13 +49,28 @@
                     voluptatum dicta harum, exercitationem maxime laudantium illum aut ab dolore quas id eligendi
                     ducimus vel iure beatae saepe impedit! Dolorum sit ipsam voluptatibus ea inventore adipisci
                     provident tempora quae odio.</p>
-                <h1 class="card">joke</h1>
+
+                <h1 class="bg-yellow-200 p-3 rounded-lg font-semibold shadow-lg">Leadership Team</h1>
+                <div class="flex justify-evenly flex-wrap">
+                    <div class="w-60 card m-5 items-center flex flex-col"><img class="object-scale-down"
+                            src="resources/leader1.jpg" alt=""><span class="font-bold ">Dora The
+                            Explorer<br>(Principal)</span>
+                    </div>
+                    <div class="w-60 card m-5 items-center flex flex-col"><img class="object-scale-down"
+                            src="resources/leader2.jpg" alt=""><span class="font-bold ">Donald Duck<br>(Vice
+                            Principal)</span></div>
+                    <div class="w-60 card m-5 items-center flex flex-col"><img class="object-scale-down"
+                            src="resources/leader3.jpg" alt=""><span class="font-bold ">Bart Simpson<br>(HOD)</span>
+                    </div>
+                </div>
+
             </div>
         </Section>
 
-        <section id="academics">
+        <section id="academics" class="mb-20">
             <div class="flex flex-col items-center">
-                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-ACADEMICS-</span></h2>
+                <h2 class="font-semibold p-4 text-3xl"><span class="bg-main rounded-full p-3 shadow-xl text-white"><span
+                            class="p-4">ACADEMICS</span></h2>
                 <p class="mx-36 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur temporibus
                     deleniti, reiciendis eaque, aperiam adipisci quis, tenetur libero delectus sequi. Maxime distinctio
                     reiciendis, reprehenderit ut a vel facilis sequi harum doloribus nulla. Et soluta provident
@@ -61,46 +80,138 @@
                     laborum temporibus cumque unde laudantium vero esse necessitatibus, cum ullam officia rerum labore
                     tempore officiis repellendus. Illum non aut ut! Optio porro atque commodi dolorem.</p>
             </div>
+            <hr class="w-72 h-1 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 ">
             <div>
-                Time Table
-                <Table class="border-2 solid">
+                <h2 class="text-center"><span class="bg-yellow-200 p-4 rounded-lg font-semibold shadow-lg text-xl">Time
+                        Table</span>
+                </h2>
+                <Table class="border-2 solid my-10 ml-auto mr-auto bg-gray-500 p-2">
                     <tr class="border-2 solid">
-                        <th class="border-2 solid">Class</th>
-                        <th>Hour 1</th>
-                        <th>Hour 2</th>
-                        <th>Hour 3</th>
-                        <th>Hour 4</th>
-                        <th>Hour 5</th>
-                        <th>Hour 6</th>
-                        <th>Hour 7</th>
+                        <th class="border-2 solid px-1.5">Day/Hour</th>
+                        <th class="border-2 solid px-1.5">Hour 1</th>
+                        <th class="border-2 solid px-1.5">Hour 2</th>
+                        <th class="border-2 solid px-1.5">Hour 3</th>
+                        <th class="border-2 solid px-1.5">Hour 4</th>
+                        <th class="border-2 solid px-1.5">Hour 5</th>
+                        <th class="border-2 solid px-1.5">Hour 6</th>
+                        <th class="border-2 solid px-1.5">Hour 7</th>
                     </tr>
                     <tr>
-                        <td>Mon</td>
-                        <td>math</td>
-                        <td>phy</td>
-                        <td>chem</td>
-
+                        <td class="border-2 solid text-center">Mon</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Phy</td>
+                        <td class="border-2 solid text-center">Chem</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eco</td>
+                    </tr>
+                    <tr>
+                        <td class="border-2 solid text-center">Tue</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Phy</td>
+                        <td class="border-2 solid text-center">Chem</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eco</td>
+                    </tr>
+                    <tr>
+                        <td class="border-2 solid text-center">Wed</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Phy</td>
+                        <td class="border-2 solid text-center">Chem</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eco</td>
+                    </tr>
+                    <tr>
+                        <td class="border-2 solid text-center">Thu</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Phy</td>
+                        <td class="border-2 solid text-center">Chem</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eco</td>
+                    </tr>
+                    <tr>
+                        <td class="border-2 solid text-center">Fri</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Math</td>
+                        <td class="border-2 solid text-center">Phy</td>
+                        <td class="border-2 solid text-center">Chem</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eng</td>
+                        <td class="border-2 solid text-center">Eco</td>
                     </tr>
                 </Table>
             </div>
-            <div class="flex flex-col gap-5 mt-6">
+            <hr class="w-72 h-1 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 ">
 
-                <button class="rounded-full bg-main w-24"> resource 1</button>
-                <button class="rounded-full bg-main w-24"> resource 2</button>
-                <button class="rounded-full bg-main w-24"> resource 3</button>
+            <h2 class="text-center"><span
+                    class="bg-yellow-200 p-4 rounded-lg font-semibold shadow-lg text-xl">Resources</span>
+            </h2>
+            <div class="flex gap-5 mt-8 justify-evenly">
+
+                <button class="rounded-full bg-main w-28 h-10 align-middle text-white m-3"><span class="p-3">Resource
+                        1</span>
+                </button>
+                <button class="rounded-full bg-main w-28 h-10 align-middle text-white m-3"><span class="p-3 ">Resource
+                        1</span>
+                </button>
+                <button class="rounded-full bg-main w-28 h-10 align-middle text-white m-3"><span class="p-3 ">Resource
+                        1</span>
+                </button>
+
             </div>
         </section>
 
-        <section id="gallery">
+        <section id="gallery" class="mb-20">
             </div>
             <div class="flex flex-col items-center">
-                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-GALLERY-</span></h2>
+                <h2 class="font-semibold p-4 text-3xl"><span class="bg-main rounded-full p-3 shadow-xl text-white"><span
+                            class="p-5">GALLERY</span></h2>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/xvFZjo5PgG0?si=2UtHVdegpCLpnAda?autoplay=1"></iframe>
             </div>
+
         </section>
 
-        <section id="contact-us">
+        <section id="contact-us" class="mb-20">
             <div class="flex flex-col items-center">
-                <h2 class="font-semibold p-4 text-3xl"><span class="bg-yellow-400">-CONTACT US-</span></h2>
+                <h2 class="font-semibold p-4 text-3xl"><span class="bg-main rounded-full p-3 shadow-xl text-white"><span
+                            class="p-4">CONTACT US</span></h2>
+                <div class="flex flex-col">
+                    <label class="font-bold py-0.5 mt-2" for="fname">First Name :</label>
+                    <input class="rounded-md p-2 m-0.5" type="text" id="fname" name="firstname"
+                        placeholder="Enter your name..">
+
+                    <label class="font-bold p-1 mt-2" for="lname">Last Name :</label>
+                    <input class="rounded-md p-2 m-0.5" type="text" id="lname" name="lastname"
+                        placeholder="Your last name..">
+
+                    <label class="font-bold p-1 mt-2" for="query">Query :</label>
+                    <select id='query' class="rounded-md p-2 m-0.5" name="country">
+                        <option value="admission">Admission</option>
+                        <option value="exams">Exams</option>
+                        <option value="fees">Fees</option>
+                    </select>
+
+                    <label class="font-bold p-1 mt-2 " for="subject">Description :</label>
+                    <textarea class="rounded-md p-2 m-0.5 h-72 w-96" id="subject" name="subject"
+                        placeholder="Describe your query.."></textarea>
+
+                    <button class="bg-main rounded-full text-white m-2 h-8"><span
+                            class="font-bold ">SUBMIT</span></button>
+                </div>
+                <ul>
+                    <li>email: contact@royalacademy.edu.com</li>
+                    <li>Ph: 080-223448393 / 94</li>
+                    <li>Address: #44, CSS cross, Javascript - 6969696</li>
+                </ul>
+
             </div>
         </section>
 
@@ -109,5 +220,6 @@
         <h1 class="text-white text-3xl p-4 mx-16">Royal Academy</h1>
     </footer>
 </body>
+
 
 </html>
