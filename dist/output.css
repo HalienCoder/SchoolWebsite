@@ -676,7 +676,7 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .card {
   background-color: #fff;
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
@@ -2181,6 +2181,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   border-color: rgb(220 76 100 / var(--tw-border-opacity));
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -2298,6 +2303,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   background-color: rgb(0 0 0 / 0.4);
 }
 
+.bg-btn-unclick {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 68 69 / var(--tw-bg-opacity));
+}
+
 .bg-current {
   background-color: currentColor;
 }
@@ -2314,6 +2324,11 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .bg-inherit {
   background-color: inherit;
+}
+
+.bg-light-aqua {
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 250 254 / var(--tw-bg-opacity));
 }
 
 .bg-main {
@@ -2615,6 +2630,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-bottom: 0px;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pb-\[5px\] {
   padding-bottom: 5px;
 }
@@ -2691,8 +2710,8 @@ input[type="range"]:active::-webkit-slider-thumb {
   vertical-align: -0.125em;
 }
 
-.font-Rubik {
-  font-family: Rubik, sans - serif;
+.font-Patua {
+  font-family: Patua One, cursive;
 }
 
 .text-3xl {
@@ -3553,9 +3572,9 @@ input[type="range"]:active::-webkit-slider-thumb {
   background-color: unset;
 }
 
-.hover\:bg-blue-700:hover {
+.hover\:bg-btn-click:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+  background-color: rgb(142 228 175 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-neutral-100:hover {
@@ -3594,6 +3613,11 @@ input[type="range"]:active::-webkit-slider-thumb {
 .hover\:text-\[\#8b8b8b\]:hover {
   --tw-text-opacity: 1;
   color: rgb(139 139 139 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-primary:hover {

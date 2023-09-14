@@ -11,9 +11,13 @@ module.exports = {
       colors: {
         main: "#171c8f",
         second: "#f7675e",
+        "light-aqua": "#CAFAFE",
+        "btn-unclick": "#FC4445",
+        "btn-click": "#8EE4AF",
       },
       fontFamily: {
         Rubik: ["Rubik", "sans - serif"],
+        Patua: ["Patua One", "cursive"],
       },
     },
   },
