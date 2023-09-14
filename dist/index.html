@@ -32,7 +32,7 @@
             class="h-20 flex justify-evenly bg-main text-white shadow-slate-950 fixed top-0 left-0 right-0 overflow-hidden z-10">
             <div class="flex p-2.5 align-middle">
                 <img src="/dist/resources/logo.png" alt="logo" class="p-0.5 object-scale-down rounded-xl">
-                <h2 class="font-black py-2 align-middle">ROYAL ACADEMY</h2>
+                <h2 class="font-black py-2 align-middle text-sm md:text-lg">ROYAL ACADEMY</h2>
             </div>
             <ul class="flex justify-evenly gap-8 mt-4 md:gap-4 sm:gap-4">
                 <li> <a class=" hover:font-black no-underline text-white" href="#home">Home</a></li>
@@ -49,10 +49,11 @@
             id="btnTop">^up^</button>
         <section id="home" class="mb-20">
             <div class=" w-screen">
-                <img src="resources/banner1.png" alt="Royal Academy" class="left-0 right-0 w-full h-auto shadow-2xl">
+                <img src="resources/banner1.png" alt="Royal Academy"
+                    class="left-0 right-0 w-full pt-20 h-auto shadow-2xl md:pt-0">
                 <div class="flex flex-col items-center mt-5">
                     <h2 class="font-extrabold">!! ANNOUNCEMENTS !!</h2>
-                    <div class="flex-wrap flex">
+                    <div class="flex-wrap flex justify-evenly">
                         <div class=" w-80 card m-5 p-6">
                             <h3>Title</h3>
                             <h6>23-04-23</h6>
@@ -226,8 +227,8 @@
             </div>
 
             <!-- Carousel experiements -->
-            <div class="flex items-center ">
-                <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="flex items-center flex-wrap">
+                <div id="carouselExampleCaptions" class="carousel slide mx-auto my-3">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -273,7 +274,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <iframe width="640" height="360" class="mx-auto"
+                <iframe width="640" height="360" class="mx-auto my-3"
                     src="https://www.youtube.com/embed/xvFZjo5PgG0?si=2UtHVdegpCLpnAda?autoplay=1"></iframe>
             </div>
         </section>
@@ -308,13 +309,13 @@
                 </div>
 
             </div>
-            <div class="flex justify-around mt-10">
-                <iframe class="rounded-2xl"
+            <div class="flex justify-around mt-10 flex-wrap">
+                <iframe class="rounded-2xl mx-auto my-3"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.6054366428584!2d-74.22308997496323!3d22.44387188767661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8934fd7dadab6253%3A0x8d40b9fca4d1ff4f!2sRick%20Roll%20Island!5e0!3m2!1sen!2sin!4v1694631904087!5m2!1sen!2sin"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div class=" bg-second rounded-2xl p-1
-                 my-36">
+                 my-36 mx-auto">
                     <ul class="p-4 ">
                         <li class="font-semibold text-white">
                             <h4>email:
